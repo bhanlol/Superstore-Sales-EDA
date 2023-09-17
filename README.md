@@ -16,6 +16,9 @@ superstore_eda.sql (MySQL):
 Tableau Dashboard:
 - [Superstore Sales Dashboard](https://public.tableau.com/app/profile/brandon.han3861/viz/SuperstoreSalesDashboard_16947664303160/Dashboard1)
 
+Data Retrieved From:
+- [Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
 ## Recommendations
 
 ### Products
@@ -38,7 +41,3 @@ Quarter 4 sees significantly higher totals in both revenue and profits, possibly
 ### Regionality
 
 Revenue seems to have a strong, positive correlation with state population. California, New York, Texas, Pennsylvania, and Florida are 1st, 2nd, 3rd, 5th, and 6th, respectively, in terms of revenue and are the 5 states with the highest populations. Curiously, Washington is 4th in terms of revenue but does not have a particularly high population. It may be a good idea to prioritize inventory allocations towards shipping centers that cater towards these states.
-
-
-Data Retrieved From:
-- [Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
