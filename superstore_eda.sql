@@ -174,8 +174,8 @@ GROUP BY 1, 2;
 
 SELECT ROW_NUMBER() OVER (ORDER BY profit) AS purchase_no, customer_id, s.product_id, category, sub_category, profit, ROUND((SUM(profit) / SUM(sales) * 100), 2) AS profit_margin,
 	CASE
-		WHEN discount = 0 THEN "No"
-        ELSE "Yes"
+	     WHEN discount = 0 THEN "No"
+             ELSE "Yes"
 	END AS "Discount?"
 FROM superstore_sales AS s
 JOIN superstore_products AS p
