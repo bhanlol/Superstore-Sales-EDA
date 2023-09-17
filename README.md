@@ -22,7 +22,7 @@ Data Retrieved From:
 Our **technology** and **office supplies** product categories have profit margins of 17.39% and 17.13%, respectively. Our **furniture** product category has a meager profit margin of 2.32%. Taking a deeper dive into these categories, the **bookcases** and **tables** sub-categories within the **furniture** category have profit margins of -3.02% and -8.56%, respectively. The **supplies** sub-category within the **office supplies** category is the only other sub-category within our product lineup that has a negative profit margin at -2.93%. We should reevaluate how we price and apply discounts to products in these sub-categories, and potentially renegotiate contracts with wholesalers/distributors for these products. To name a few, product ID **OFF-SU-10000432** (supplies), product ID **FUR-TA-10004289** (tables), and product ID **FUR-BO-10001567** (bookcases) have profit margins of -18.75%, -67.31%, and an abysmal -210%, respectively.
 
 ### Customers
-Some customers seem to be extremely loyal customers. We may benefit from a loyalty program that keeps loyal customers loyal, and increases purchase frequency from those who may not shop with us as often. 
+We may benefit from a loyalty program that keeps loyal customers loyal, and increases purchase frequency from those who may not shop with us as often. 
 
 One curious finding from our EDA shows that our top revenue-grossing customer (customer ID **SM-20320**), provided us with a total profit of approximately -$1980 and a profit margin of -7.91%. A quick look into his purchase history shows that only 2 of his 15 purchases were made **without** a discount, which brings us to our next recommendation...
 
