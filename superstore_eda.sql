@@ -166,6 +166,23 @@ GROUP BY 1, 2
 ORDER BY 3 DESC
 LIMIT 100;
 
+-- customer ID SM-20320
+SELECT customer_id, customer_name, SUM(profit) AS total_profit, ROUND((SUM(profit) / SUM(sales) * 100), 2) AS profit_margin
+FROM superstore_sales
+WHERE customer_id = "SM-20320"
+GROUP BY 1, 2;
+
+SELECT ROW_NUMBER() OVER (ORDER BY profit) AS purchase_no, customer_id, s.product_id, category, sub_category, profit, ROUND((SUM(profit) / SUM(sales) * 100), 2) AS profit_margin,
+	CASE
+		WHEN discount = 0 THEN "No"
+        ELSE "Yes"
+	END AS "Discount?"
+FROM superstore_sales AS s
+JOIN superstore_products AS p
+	ON s.product_id = p.product_id
+WHERE customer_id = "SM-20320"
+GROUP BY 2, 3, 4, 5, 6, 8;
+
 -- top 100 customers in quantity of sales
 SELECT customer_id, customer_name, SUM(quantity) AS quantity_sales, SUM(profit) as total_profit, ROUND((SUM(profit) / SUM(sales) * 100), 2) AS profit_margin
 FROM superstore_sales
