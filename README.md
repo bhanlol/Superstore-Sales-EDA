@@ -10,7 +10,7 @@ superstore_eda.sql (MySQL):
 - EDA
 
 Tableau Dashboard:
-- Data visualization: [Superstore Sales Dashboard](https://public.tableau.com/app/profile/brandon.han3861/viz/SuperstoreSalesDashboard_16947664303160/Dashboard1)
+- [Superstore Sales Dashboard](https://public.tableau.com/app/profile/brandon.han3861/viz/SuperstoreSalesDashboard_16947664303160/Dashboard1)
 
 Data Retrieved From:
 - [Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
