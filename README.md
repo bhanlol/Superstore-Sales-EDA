@@ -8,9 +8,11 @@ In this project, we conducted exploratory data analysis (EDA) on sales, profit, 
 
 superstore_eda.sql (MySQL):
 - EDA
+- File linked above
 
 Power BI Dashbaord:
 - Revenue insights and KPIs
+- File linked above
 
 Tableau Dashboard:
 - [Superstore Sales Dashboard](https://public.tableau.com/app/profile/brandon.han3861/viz/SuperstoreSalesDashboard_16947664303160/Dashboard1)
